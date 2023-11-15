@@ -1,4 +1,4 @@
-import { SwmIcon2 } from '@bartoszkapciak-icon-pack/react';
+import { SwmIcon2 } from '@bartoszkapciak/react-icon-pack';
 
 function App() {
   return (
