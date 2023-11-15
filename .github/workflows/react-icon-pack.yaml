@@ -1,8 +1,8 @@
-name: React
+name: react-icon-pack
 on:
   push:
     paths:
-      - packages/react/**
+      - packages/react-icon-pack/**
     branches:
       - '**'
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: packages/react
+        working-directory: packages/react-icon-pack
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
